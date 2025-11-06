@@ -1,0 +1,17 @@
+<html >
+<body>
+<div class="a" id="a">
+<img src="https://i.natgeofe.com/n/8eba070d-14e5-4d07-8bab-9db774029063/93080.jpg?w=1200" id="image">
+style="width:500px;height:600px;"><br><br>
+<h1 id="text1">Taj Mahal,Agra</h1>
+<h1 id="text2">The colossem,Rome</h1>
+</div>
+<script> document.getElementById("a").addEventListener("mouseover",ab); document.getElementById("a").addEventListener("mouseout",bc); function ab() {
+document.getElementById('image').src = "https://th.bing.com/th/id/R.5b4f9aa5d8797f6eaa00fdf053cfbf36?rik=UC6IQxJsfkm7YQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-lc6roY1Ibac%2fUQIwWcdNlrI%2fAAAAAAAAC2s%2fDuyiH1V_Z5c%2fs1600%2fColosseum-Rome-Historical-Place.jpg&ehk=kpReLzxZmZtnB0di5IXJOrary9Uxd2AH0FK3qshFYMU%3d&risl=&pid=ImgRaw&r=0"; document.getElementById('text1').style.display="none"; document.getElementById('text2').style.display="block"
+}
+function bc() { document.getElementById('image').src = "https://i.natgeofe.com/n/8eba070d-14e5-4d07-8bab-9db774029063/93080.jpg?w=1200";
+document.getElementById('text1').style.display="block"; document.getElementById('text2').style.display="none";
+}
+</script>
+</body>
+</html>
